@@ -1,0 +1,16 @@
+# HernandezPerez-et-al-2019
+The Script should be run with FIJI (ImageJ)
+The accompaniying sample stacks should be saved in a "input" folder.
+
+Running a script:
+1.select an input folder with sample stacks in 2 channels/select an output folder for results
+2.select Alternative (choice of different systems, since FIJI behaves differently in different systems), if it does not work the first time
+uncheck the second time...
+3.select deconvoluted (in case your images are not deconvoluted uncheck it
+4.select if results should be saved as .txt or .csv
+5.select which kind of automatic thresholding do you wish to be performed
+6.wait that the script loads your two stacks
+7.script creates a z-projection for easier selection of each cell, choose how much brighter the projection should be in a range from 0-5 (bellow 0.5 gets darker, above brighter)
+8.choose how many selections will you make
+9.make individual selections and wait each time, that script asks you to do next selection...
+10. check the results in output folder
